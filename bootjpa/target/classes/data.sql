@@ -1,0 +1,5 @@
+insert into alien values (64,'Zai','Java')
+insert into alien values (65,'Adel','Java')
+insert into alien values (66,'Salima','Python')
+insert into alien values (67,'Thashin','JS')
+insert into alien values (68,'Zamaan','C++')
