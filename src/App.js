@@ -5,21 +5,34 @@ function App() {
   return (
   <body>
     <div>
-      <h1 className="App">YOMED!</h1>
+      <nav>
+          
+      </nav>
       <ul>
       <li><a href="default.asp">Home</a></li>
-      <li><a href="news.asp">Order</a></li>
-      <li><a href="contact.asp">History</a></li>
-      <li><a href="about.asp">Weather</a></li>
+      <li><a href="news.asp">Get Quantity</a></li>
+      <li><a href="contact.asp">Order History</a></li>
+      <li><a href="about.asp">Upcoming Weather</a></li>
+      <li><a href="about.asp">Upcoming Weather 2</a></li>
       </ul>
       <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-      dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      LET US PREDICT YOUR MEDICINE QUANTITY!
       </p>
+      
+      <form>
+        <label>
+          Medicine Name:
+         <input type="text" name="name" />
+        </label>
+        <br></br>
+        <label>
+          Location:
+          <input type="text" name="name" />
+        </label>
+        <br></br>
+          <input type="submit" value="PREDICT QUANTITY" />
+        </form>
     </div>
-
     </body>
   );
 }

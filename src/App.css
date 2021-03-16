@@ -66,7 +66,19 @@ body {
 }
 
 p{
+  font-size: xx-large;
   color: rgb(248, 247, 247);
   margin-left: 100px;
   margin-right: 100px;
+}
+
+form{
+  margin-left: 100px;
+  margin-right: 100px;
+  color: antiquewhite;
+  font-size: x-large;
+}
+
+input{
+  width: 200px;
 }
